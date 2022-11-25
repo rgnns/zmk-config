@@ -12,6 +12,8 @@
 #define NUM_L 2
 #define SYM_L 3
 
+&mt { };
+
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
 
@@ -39,7 +41,7 @@
             bindings = <&caps_word>;
         };
     };
-    
+
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
